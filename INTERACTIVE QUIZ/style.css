@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.quiz-container {
+  background: #ffffff;
+  margin: 40px;
+  padding: 30px;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#login-section {
+  text-align: center;
+}
+
+#login-section input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#timer {
+  text-align: center;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-bottom: 20px;
+}
+
+.question {
+  display: none;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+  background: #f3f3f3;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+label:hover {
+  background: #e0e0e0;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #2193b0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #197186;
+}
+
+.result-box {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Web Development Quiz</h1>
+
+    <div id="login-section">
+      <label for="username">Enter your name:</label>
+      <input type="text" id="username" placeholder="Your name" />
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div id="quiz-section" style="display: none;">
+      <div id="timer">Time Left: 60s</div>
+      <form id="quiz-form"></form>
+
+      <div class="nav-buttons">
+        <button type="button" id="prev-btn">Previous</button>
+        <button type="button" id="next-btn">Next</button>
+      </div>
+
+      <button id="submit-btn" type="button">Submit Quiz</button>
+      <button id="restart-btn" type="button" style="display: none;">Restart Quiz</button>
+    </div>
+
+    <div id="result" class="result-box"></div>
+    <div id="history" class="result-box"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
